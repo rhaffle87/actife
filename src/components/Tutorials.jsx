@@ -1,7 +1,7 @@
 import { BookOpen, Play, FileText, Video, Code, CheckCircle, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-const Tutorials = ({ setActiveSection }) => {
+const Tutorials = () => {
   const tutorials = [
     {
       id: 'neural-network',
