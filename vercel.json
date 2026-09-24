@@ -3,6 +3,16 @@
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "vite",
+  "redirects": [
+    { "source": "/eloran", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/eloran/", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/loran-c", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/loran-c/", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/loranc", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/loranc/", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/waveforms", "destination": "https://github.com/rhaffle87/eloran", "permanent": true },
+    { "source": "/waveforms/", "destination": "https://github.com/rhaffle87/eloran", "permanent": true }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
