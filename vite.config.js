@@ -10,7 +10,6 @@ export default defineConfig({
         manualChunks: {
           react: ['react', 'react-dom'],
           tensorflow: ['@tensorflow/tfjs'],
-          maplibre: ['maplibre-gl'],
           chart: ['chart.js'],
         },
       },
