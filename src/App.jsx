@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Tutorials from './components/Tutorials'
@@ -11,10 +11,8 @@ const ImageProcessing = lazy(() => import('./components/ImageProcessing'))
 const SignalProcessing = lazy(() => import('./components/SignalProcessing'))
 const LinearRegression = lazy(() => import('./components/LinearRegression'))
 const ColorScience = lazy(() => import('./components/ColorScience'))
-const Loranc = lazy(() => import('./components/Loranc'))
 const MachineLearning = lazy(() => import('./components/MachineLearning'))
 const MediaPipe = lazy(() => import('./components/MediaPipe'))
-const ELoranSimulator = lazy(() => import('./components/Eloran'))
 
 function App() {
   const location = useLocation()
@@ -34,16 +32,12 @@ function App() {
         return 'color-science'
       case '/signal-processing':
         return 'signal-processing'
-      case '/loran-c':
-        return 'loran-c'
       case '/linear-regression':
         return 'linear-regression'
       case '/machine-learning':
         return 'machine-learning'
       case '/mediapipe':
         return 'mediapipe'
-      case '/eloran':
-        return 'eloran'
       case '/credits':
         return 'credits'
       default:
@@ -71,12 +65,11 @@ function App() {
             <Route path="/image-processing" element={<ImageProcessing />} />
             <Route path="/color-science" element={<ColorScience />} />
             <Route path="/signal-processing" element={<SignalProcessing />} />
-            <Route path="/loran-c" element={<Loranc />} />
             <Route path="/linear-regression" element={<LinearRegression />} />
             <Route path="/machine-learning" element={<MachineLearning />} />
             <Route path="/mediapipe" element={<MediaPipe />} />
-            <Route path="/eloran" element={<ELoranSimulator />} />
             <Route path="/credits" element={<Credits />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
         </ErrorBoundary>

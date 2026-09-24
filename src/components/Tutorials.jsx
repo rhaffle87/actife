@@ -79,21 +79,6 @@ const Tutorials = ({ setActiveSection }) => {
       ]
     },
     {
-      id: 'loran-c',
-      title: 'LORAN-C Simulator',
-      description: 'Learn about LORAN-C navigation system and TDOA positioning',
-      icon: ArrowRight,
-      difficulty: 'Advanced',
-      duration: '30 min',
-      topics: ['LORAN-C Principles', 'TDOA Positioning', 'Hyperbola Generation', 'Map Visualization'],
-      steps: [
-        'Understand LORAN-C basics',
-        'Set up master and slave stations',
-        'Compute TDOA measurements',
-        'Visualize position lines of position'
-      ]
-    },
-    {
       id: 'machine-learning',
       title: 'Machine Learning',
       description: 'Explore various ML algorithms and model training techniques',

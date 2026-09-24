@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, Home, ChevronDown, User, BookText, List, Brain, Image, TrendingUp, Palette, Radio, MapPin, Cpu, Video } from 'lucide-react';
+import { Menu, X, Home, ChevronDown, User, BookText, List, Brain, Image, TrendingUp, Palette, Radio, Cpu, Video } from 'lucide-react';
 import logo from '../assets/logo.png';
 
 const Navbar = ({ activeSection }) => {
@@ -15,10 +15,8 @@ const Navbar = ({ activeSection }) => {
     { id: 'linear-regression', label: 'Linear Regression', icon: TrendingUp },
     { id: 'color-science', label: 'Color Science', icon: Palette },
     { id: 'signal-processing', label: 'Signal Processing', icon: Radio },
-    { id: 'loran-c', label: 'LORAN-C Simulator', icon: MapPin },
     { id: 'machine-learning', label: 'Machine Learning', icon: Cpu },
     { id: 'mediapipe', label: 'MediaPipe', icon: Video },
-    { id: 'eloran', label: 'eLORAN Simulator', icon: MapPin },
   ];
 
   // Close dropdown when clicking outside
