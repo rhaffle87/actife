@@ -47,14 +47,14 @@ These files contain non-Loran features, but have routing, links, or text referen
 3. `src/components/Tutorials.jsx` (SHARED - EDIT)
    - Remove tutorial card: `{ id: 'loran-c', title: 'LORAN-C Simulator', ... }`
 4. `src/components/Home.jsx` (SHARED - EDIT)
-   - Add a discrete notice: *"Loran-C and eLoran simulators have moved to [LORAN LAB](https://github.com/rhaffle87/eloran)."*
+   - Add a discrete notice: *"Loran-C and eLoran simulators have moved to [LORAN LAB](https://eloran-one.vercel.app)."*
 5. `sitemap.xml` (SHARED - EDIT)
    - Remove `<url><loc>https://actife.vercel.app/loran-c</loc>...</url>`
 6. `README.md` (SHARED - EDIT)
    - Remove Loran-C sections, features, and directory references
-   - Add single notice linking to `https://github.com/rhaffle87/eloran`
+   - Add single notice linking to `https://eloran-one.vercel.app`
 7. `vercel.json` (SHARED - EDIT)
-   - Add permanent (301) redirects for `/eloran`, `/loran-c`, `/loranc`, `/waveforms` to `https://github.com/rhaffle87/eloran` BEFORE the catch-all rewrite.
+   - Add permanent (301) redirects for `/eloran`, `/loran-c`, `/loranc`, `/waveforms` to `https://eloran-one.vercel.app` BEFORE the catch-all rewrite.
 8. `vite.config.js` (SHARED - EDIT)
    - Remove `maplibre: ['maplibre-gl']` from `manualChunks`.
 9. `package.json` (SHARED - EDIT)

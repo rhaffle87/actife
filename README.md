@@ -64,7 +64,7 @@ The project serves as an **educational and experimental environment** for explor
 - Color theory exploration
 - Interactive color manipulation tools
 
-> **Note:** Radio-navigation simulations (Loran-C & eLoran) have moved to the dedicated standalone project [LORAN LAB](https://github.com/rhaffle87/eloran).
+> **Note:** Radio-navigation simulations (Loran-C & eLoran) have moved to the dedicated standalone project [LORAN LAB](https://eloran-one.vercel.app) ([GitHub repository](https://github.com/rhaffle87/eloran)).
 
 ## Tutorials
 - Step-by-step explanations of AI/ML concepts
