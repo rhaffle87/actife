@@ -149,8 +149,8 @@ const Home = () => {
           </div>
 
           {/* Card Stack Section (Right for desktop / Bottom for mobile) */}
-          <div className="order-2 lg:order-0 w-full lg:w-1/2 flex justify-center items-center">
-            <div className="w-full sm:w-[380px] md:w-[420px] lg:w-[480px]">
+          <div className="order-2 lg:order-0 w-full lg:w-1/2 flex justify-center items-center relative h-[320px] sm:h-[380px] lg:h-[420px]">
+            <div className="relative w-full sm:w-[380px] md:w-[420px] lg:w-[480px] h-full">
               <CardSwap
                 width={540}
                 height={400}
