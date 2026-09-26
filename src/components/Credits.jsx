@@ -21,10 +21,21 @@ const Credits = () => {
                 alt="ACTIFE Logo"
                 className="h-18 md:h-22 mx-auto mb-4 transition-all duration-500 hover:scale-110 hover:brightness-110"
               />
-            <p className="text-lg text-white mb-6 ">
+            <p className="text-lg text-white mb-4">
               ACTIFE (Artificial Computing Toolkit for Intelligent Feature Experiments) was developed by Rafli Alif
               as a comprehensive platform for exploring machine learning algorithms, image processing techniques,
               and computer vision applications through interactive web interfaces powered by cutting-edge AI technologies.
+            </p>
+            <p className="text-sm text-zinc-400 mb-6">
+              Radio-navigation simulations (Loran-C and eLoran) have moved to{' '}
+              <a
+                href="https://eloran-one.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 underline font-medium"
+              >
+                LORAN LAB
+              </a>.
             </p>
             <div className="flex justify-center space-x-4">
               <a

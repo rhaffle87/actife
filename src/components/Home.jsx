@@ -135,11 +135,22 @@ const Home = () => {
             <p className="text-zinc-300 text-base sm:text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
               This interactive web application brings together various AI/ML algorithms and computer vision techniques from a comprehensive repository. Each section provides hands-on experience with real implementations that you can interact with directly in your browser.
             </p>
+            <p className="text-zinc-400 text-sm leading-relaxed max-w-xl mx-auto lg:mx-0 pt-2 border-t border-zinc-800">
+              Looking for radio-navigation simulations? Loran-C and eLoran simulators have moved to{' '}
+              <a
+                href="https://eloran-one.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 underline font-medium"
+              >
+                LORAN LAB
+              </a>.
+            </p>
           </div>
 
           {/* Card Stack Section (Right for desktop / Bottom for mobile) */}
-          <div className="order-2 lg:order-0 w-full lg:w-1/2 flex justify-center items-center">
-            <div className="w-full sm:w-[380px] md:w-[420px] lg:w-[480px]">
+          <div className="order-2 lg:order-0 w-full lg:w-1/2 flex justify-center items-center relative h-[320px] sm:h-[380px] lg:h-[420px]">
+            <div className="relative w-full sm:w-[380px] md:w-[420px] lg:w-[480px] h-full">
               <CardSwap
                 width={540}
                 height={400}

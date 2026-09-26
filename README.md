@@ -64,10 +64,7 @@ The project serves as an **educational and experimental environment** for explor
 - Color theory exploration
 - Interactive color manipulation tools
 
-## Loran-C Navigation Simulation
-- Loran-C radio navigation system model
-- Signal propagation visualization
-- Positioning accuracy demonstration
+> **Note:** Radio-navigation simulations (Loran-C & eLoran) have moved to the dedicated standalone project [LORAN LAB](https://eloran-one.vercel.app) ([GitHub repository](https://github.com/rhaffle87/eloran)).
 
 ## Tutorials
 - Step-by-step explanations of AI/ML concepts
@@ -117,7 +114,6 @@ ai_ml/
 │   │   ├── MachineLearning.jsx # ML algorithms
 │   │   ├── SignalProcessing.jsx # Signal processing demos
 │   │   ├── ColorScience.jsx    # Color science tools
-│   │   ├── Loranc.jsx          # Loran-C simulation
 │   │   ├── MediaPipe.jsx       # Computer vision demos
 │   │   └── CardNav.jsx         # Navigation card component
 │   ├── assets/                 # Static assets
@@ -213,11 +209,6 @@ npm run preview
 - Experiment with color space conversions
 - Learn color theory through interactive tools
 - Manipulate colors in different spaces (RGB, CMY, SMPTE)
-
-### Loran-C
-- Simulate Loran-C navigation system
-- Model signal propagation
-- Demonstrate positioning accuracy
 
 ### MediaPipe Integration
 - Enable camera permissions for real-time demos
