@@ -11,16 +11,16 @@ const Credits = () => {
           <div className="text-center">
 
             {/* Creator Info */}
-            <img src={CreditsImg} alt="Rafli Alif" className="sm:w-28 sm:h-28 md:w-35 md:h-35 lg:w-60 lg:h-60 rounded-full mx-auto mb-6 object-cover"/>
+            <img src={CreditsImg} alt="Rafli Alif" className="sm:w-28 sm:h-28 md:w-35 md:h-35 lg:w-60 lg:h-60 rounded-full mx-auto mb-6 object-cover" />
             <h2 className="text-2xl font-bold text-white mb-4">Rafli Alif</h2>
             <p className="text-white mb-6">Creator & Developer</p>
 
 
             <img
-                src={logo}
-                alt="ACTIFE Logo"
-                className="h-18 md:h-22 mx-auto mb-4 transition-all duration-500 hover:scale-110 hover:brightness-110"
-              />
+              src={logo}
+              alt="ACTIFE Logo"
+              className="h-18 md:h-22 mx-auto mb-4 transition-all duration-500 hover:scale-110 hover:brightness-110"
+            />
             <p className="text-lg text-white mb-4">
               ACTIFE (Artificial Computing Toolkit for Intelligent Feature Experiments) was developed by Rafli Alif
               as a comprehensive platform for exploring machine learning algorithms, image processing techniques,
@@ -34,7 +34,7 @@ const Credits = () => {
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 underline font-medium"
               >
-                LORAN LAB
+                SIMULORAN
               </a>.
             </p>
             <div className="flex justify-center space-x-4">
