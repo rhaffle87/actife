@@ -1,7 +1,7 @@
 # LORAN Removal Plan & Inventory Audit for ACTIFE
 
 ## 1. Context & Objective
-The Loran-C, eLoran, and RF Waveform simulation features have been extracted and completely modernized in the standalone repository **LORAN LAB** (`e:/Projects/lmao/eloran/`, GitHub: `https://github.com/rhaffle87/eloran`).
+The Loran-C, eLoran, and RF Waveform simulation features have been extracted and completely modernized in the standalone repository **SIMULORAN** (`e:/Projects/lmao/eloran/`, GitHub: `https://github.com/rhaffle87/eloran`).
 
 This document details the inventory and removal plan for decoupling all radio-navigation code from **ACTIFE** (`e:/Projects/lmao/actife`), returning ACTIFE to a focused toolkit strictly dedicated to AI/ML, computer vision, image processing, signal processing, and color science.
 
@@ -47,7 +47,7 @@ These files contain non-Loran features, but have routing, links, or text referen
 3. `src/components/Tutorials.jsx` (SHARED - EDIT)
    - Remove tutorial card: `{ id: 'loran-c', title: 'LORAN-C Simulator', ... }`
 4. `src/components/Home.jsx` (SHARED - EDIT)
-   - Add a discrete notice: *"Loran-C and eLoran simulators have moved to [LORAN LAB](https://eloran-one.vercel.app)."*
+   - Add a discrete notice: *"Loran-C and eLoran simulators have moved to [SIMULORAN](https://eloran-one.vercel.app)."*
 5. `sitemap.xml` (SHARED - EDIT)
    - Remove `<url><loc>https://actife.vercel.app/loran-c</loc>...</url>`
 6. `README.md` (SHARED - EDIT)
@@ -99,7 +99,7 @@ These files contain non-Loran features, but have routing, links, or text referen
    - Run `npm uninstall maplibre-gl proj4 papaparse @turf/turf`.
    - Remove `maplibre` chunk from `vite.config.js`.
 6. **Commit 6: Configuration, Redirects & Documentation**
-   - Update `vercel.json` with 301 redirects to LORAN LAB.
+   - Update `vercel.json` with 301 redirects to SIMULORAN.
    - Update `README.md`.
 7. **Commit 7: Verification**
    - Run `npm run lint` and `npm run build`.
