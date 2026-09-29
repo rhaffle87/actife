@@ -29,7 +29,7 @@ const Credits = () => {
             <p className="text-sm text-zinc-400 mb-6">
               Radio-navigation simulations (Loran-C and eLoran) have moved to{' '}
               <a
-                href="https://eloran-one.vercel.app"
+                href="https://simuloran.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 underline font-medium"
