@@ -4,14 +4,14 @@
   "installCommand": "npm install",
   "framework": "vite",
   "redirects": [
-    { "source": "/eloran", "destination": "https://eloran-one.vercel.app/eloran", "permanent": true },
-    { "source": "/eloran/", "destination": "https://eloran-one.vercel.app/eloran", "permanent": true },
-    { "source": "/loran-c", "destination": "https://eloran-one.vercel.app/loran-c", "permanent": true },
-    { "source": "/loran-c/", "destination": "https://eloran-one.vercel.app/loran-c", "permanent": true },
-    { "source": "/loranc", "destination": "https://eloran-one.vercel.app/loran-c", "permanent": true },
-    { "source": "/loranc/", "destination": "https://eloran-one.vercel.app/loran-c", "permanent": true },
-    { "source": "/waveforms", "destination": "https://eloran-one.vercel.app/waveforms", "permanent": true },
-    { "source": "/waveforms/", "destination": "https://eloran-one.vercel.app/waveforms", "permanent": true }
+    { "source": "/eloran", "destination": "https://simuloran.vercel.app/eloran", "permanent": true },
+    { "source": "/eloran/", "destination": "https://simuloran.vercel.app/eloran", "permanent": true },
+    { "source": "/loran-c", "destination": "https://simuloran.vercel.app/loran-c", "permanent": true },
+    { "source": "/loran-c/", "destination": "https://simuloran.vercel.app/loran-c", "permanent": true },
+    { "source": "/loranc", "destination": "https://simuloran.vercel.app/loran-c", "permanent": true },
+    { "source": "/loranc/", "destination": "https://simuloran.vercel.app/loran-c", "permanent": true },
+    { "source": "/waveforms", "destination": "https://simuloran.vercel.app/waveforms", "permanent": true },
+    { "source": "/waveforms/", "destination": "https://simuloran.vercel.app/waveforms", "permanent": true }
   ],
   "rewrites": [
     {

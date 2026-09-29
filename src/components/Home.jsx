@@ -138,12 +138,12 @@ const Home = () => {
             <p className="text-zinc-400 text-sm leading-relaxed max-w-xl mx-auto lg:mx-0 pt-2 border-t border-zinc-800">
               Looking for radio-navigation simulations? Loran-C and eLoran simulators have moved to{' '}
               <a
-                href="https://eloran-one.vercel.app"
+                href="https://simuloran.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-300 underline font-medium"
               >
-                LORAN LAB
+                SIMULORAN
               </a>.
             </p>
           </div>
